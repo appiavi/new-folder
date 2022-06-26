@@ -1,0 +1,479 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #000;
+}
+.maindiv{
+	width: 1000px;
+	height: 1053px;
+	background: #fff;
+	margin: 0px auto;
+}
+.header{
+	width: 1000px;
+	height: 159px;
+	background: url(../images/headerbg.jpg) no-repeat;
+}
+.logo{
+	margin-top: 20px;
+	margin-left: 38px;
+	width: 173px;
+	float: left;
+}
+.headercontact{
+	width: 270px;
+	height: 116px;
+	background: url(../images/topcontactbg.png) no-repeat;
+	float: right;
+	margin-top: 25px;
+	margin-right: 25px;
+	font-family: Myriad Pro;
+	font-size: 18px;
+	color: #fff;
+	font-weight: lighter;
+	padding-left: 18px;
+	/*padding-right: 54px;*/
+	padding-top: 12px;
+	border-radius: 5px;
+}
+.websitename{
+	margin-bottom: 6px;
+	height: 28px;
+	width: 250px;
+	border-bottom: 1px dotted #085b92;
+}
+.websitename img{
+	float: left;
+}
+.websitename a{
+	color: #fff;
+	float: left;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+.mailid{
+	margin-bottom: 6px;
+	height: 28px;
+	width: 250px;
+	border-bottom: 1px dotted #085b92;
+}
+.mailid img{
+	float: left;
+	padding-top: 5px;
+}
+.mailid a{
+	color: #fff;
+	float: left;
+	text-decoration: none;
+	margin-top: 0px;
+	margin-left: 5px;
+}
+.phineno{
+	margin-bottom: 6px;
+	height: 28px;
+
+}
+.main-navigation{
+	width: 1000px;
+	height: 43px;
+	background: url(../images/menubg.jpg) repeat-x;
+	border-bottom: 3px solid #fff;
+
+}
+.main-navigation ul {
+	margin: 0;
+	padding:0px;
+	}
+.main-navigation li a,
+.main-navigation li {
+	display: inline-block;
+	text-decoration: none;
+	}
+.main-navigation li a {
+	margin:0px;
+	padding:0px;
+	color: #fff;
+	font-size:14px;
+	font-family:"Myriad Pro";
+	float:left;
+	padding:13px 18px;
+	margin-left:0px;
+	}
+.main-navigation li a:hover {
+	color: #fff;
+}
+.main-navigation li:first-child{
+	margin-left:0px;	
+	}
+.main-navigation li {
+	margin:0px;
+	padding:0px;
+	border-right:solid 1px #2966ab;
+	margin-left:-4px;
+}
+.main-navigation ul li:hover > a {
+	color:#fff;
+	background:url(../images/menubg_hover.jpg) repeat-x;
+}
+.main-active{
+	color:#fff;
+	background:url(../images/menubg_hover.jpg) repeat-x;
+}	
+.maincontent{
+	width: 1000px;
+	height: 293px;
+	border-bottom: 3px solid #fff;
+	background: #2b77a0;
+}
+.leftdiv{
+	width: 198px;
+	height: 228px;
+	background: #fff;
+	margin: 14px 0px;
+	margin-left: 23px;
+	padding: 17px;
+	float: left;
+}
+.course_time{
+	width: 198px;
+	height: 39px;
+	border-bottom: 1px dotted #cdcdcd;
+}
+.course_time img{
+	margin-top: 9px;
+	float: left;
+}
+.course_time a{
+	color: #286f95;
+	font-size: 18px;
+	padding-top: 6px;
+	margin-left: 8px;
+	float: left;
+}
+.sepa{
+	float: left;
+	margin-left: 7px;
+}
+.rightdiv{
+	float: right;
+	width: 690px;
+	height: 262px;
+	margin: 14px 0px;
+	margin-right: 23px;
+}
+
+/*main content ends here*/
+
+/*content start here*/
+.content{
+	height: 279px; 
+	width: 998;
+	background: #fff;
+	/*border: 1px solid red;*/
+}
+.left_content{
+	width: 231px;
+	height: 255px;
+	background: #fff;
+	margin: 12px 0px;
+	padding-left: 23px;
+	padding-right: 15px;
+	float: left;
+}
+.left_content1{
+	width: 230px;
+	height: 280px;
+	background: #fff;
+	margin: 14px 0px;
+	padding-left: 10px;
+	float: left;
+	margin-left: 20px;
+
+}
+.company{
+	font-size: 18px;
+	color: #747773;
+	font-family: Myriad Pro;
+	border-bottom: 1px dotted #e0e0e0;
+	padding-top: 10px;
+}
+.company a{
+	font-size: 18px;
+	color: #747773;
+	float: left;
+	margin-top: 4px;
+}
+.company a span{
+	color: #286f95;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.border1{
+	border-bottom: 1px solid #c6c6c6;
+	width: 20px;
+	padding: 1px 30px;
+	margin-top: 16px;
+	float: left;
+}
+.company_logo{
+	text-align: center;
+	border-bottom: 1px solid #c6c6c6;
+	padding: 15px 0px;
+	margin-bottom: 5px;
+}
+.websitename1{
+	width: 231px;
+	height: 38px;
+	border-bottom: 1px solid #c6c6c6;
+}
+.websitename1 img{
+	float: left;
+	margin-top: 5px;
+}
+.websitename1 a{
+	color: #6d6d6d;
+	float: left;
+	text-decoration: none;
+	margin-top: 6px;
+	margin-left: 8px;
+}
+.mailid1{
+	width: 231px;
+	height: 38px;
+	border-bottom: 1px solid #c6c6c6;
+}
+.mailid1 img{
+	float: left;
+	margin-top: 12px;
+}
+.mailid1 a{
+	color: #6d6d6d;
+	float: left;
+	text-decoration: none;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+.phoneno1{
+	width: 231px;
+	height: 38px;
+	border-bottom: 1px solid #c6c6c6;
+}
+.phoneno1 img{
+	float: left;
+	margin-top: 10px;
+}
+.phoneno1 a{
+	color: #6d6d6d;
+	float: left;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-left: 11px;
+}
+.right_content{
+	width: 675px;
+	height: 256px;
+	background: #fff;
+	float: left;
+	border-left: 1px solid #c6c6c6;
+	padding: 7px 25px;
+	margin-top: 7px;
+}
+.desc{
+	color: #747773;
+	font-size: 18px;
+	padding-top: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 14px;
+	font-family: Myriad Pro;
+}
+.desc a{
+	color: #747773;
+	font-size: 18px;
+	margin-top: 4px;
+}
+.desc span{
+	color: #286f95;
+	font-weight: bold;
+}
+.loren{
+	font-size: 12px;
+	color: #818181;
+	padding-top: 15px;
+	font-family: "Myriad Pro Light";
+	text-align: justify;
+}
+/*content ends here*/
+
+
+/* quick links */
+.ftr_bg{
+	width: 960px;
+	height: 179px;
+	background: url(../images/footerbg.jpg) no-repeat;
+	padding: 20px;
+	float: left;
+}
+.quick{
+	width: 286px;
+	height: 152px;
+	/*background: white;*/
+	border-right: 1px solid #0f506c;
+	padding-right: 25px;
+	float: left;
+	padding-bottom: 24PX;
+}
+.links{
+	color: #fff;
+	font-family: "Myriad Pro Light";
+	font-size: 18px;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #3287af;
+}
+.links span{
+	font-family: "Myriad Pro";
+}
+
+
+.ftr_nav li{
+	width: 140px;
+	height: 15px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-right: 3px;
+	margin-top: 15px;
+	list-style: none;
+	text-decoration: none;
+}
+.ftr_nav li img{
+	float: left;
+}
+.ftr_nav li a{
+	color: #fff;
+	font-size: 12px;
+	font-family: Verdana;
+	margin-left: 5px;
+	/*float: left;*/
+	text-decoration: none;
+}
+
+
+
+.services{
+	width: 286px;
+	height: 152px;
+	border-right: 1px solid #0f506c;
+	padding: 0px 25px;
+	float: left;
+	padding-bottom: 24PX;
+
+}
+.locations{
+	width: 286px;
+	height: 200px;
+	padding-left: 25px;
+	float: left;
+	padding-bottom: 25px;
+}
+.ftr_loren{
+	font-family: "Myriad Pro";
+	font-style: italic;
+	font-size: 12px;
+	color: #3aa4d2;
+	padding: 15px 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #0d4964;
+	text-align: justify;
+}
+.ftr_loren span{
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.follow{
+	color: #4cb8e8;
+	font-family: "Myriad Pro";
+	font-style: italic;
+	font-size: 18px;
+	float: left;
+	width: 70px;
+	padding: 11px 10px;
+	margin-left: 10px;
+	text-shadow: 1px 1px 15px #000;
+}
+.social_links span img{
+	float: left;
+
+}
+.social{
+	float: left;
+	background: url(../images/my.png) no-repeat;
+	width: 142px;
+	height: 46px;
+	margin-left: 5px;
+	text-align: right;
+	padding-right: 18px;
+	margin-top: 10px;
+}
+
+.social img{
+	margin-top: 10px;
+}
+.ftr_lst{
+	width: 960px;
+	height: 24px;
+	background: #033a53;
+	margin: 0px auto;
+	padding: 15px 20px;
+	border-top: 1px dotted #3287af;
+	font-family: Arial;
+	font-size: 12px;
+	color: #fff;
+	float: left;
+}
+.ftr_lst span{
+	float: right;
+}
+.ftr_lst span a{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/*about section start here*/
+.maincontent1{
+	width: 280px;
+	height: 603px;
+	background: #2b77a0;
+	border: 0px solid #ff00ff;
+	margin: 0px auto;
+	border-bottom: 3px solid #fff;
+}
+.right_content1{
+	width: 675px;
+	height: 577px;
+	background: #fff;
+	float: left;
+	padding: 7px 22px;
+	padding-top: 0px;
+}
+.mainwebsitecontent{
+	background: #fff;
+	float: left;
+	width: 100%;
+	color: #5b5b5b;
+	margin: 10px 0px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.mainwebsitecontent1{
+	line-height: 20px;
+}
+.galleryimgdiv{
+	margin: 0px 12px;
+	margin-bottom: 20px;
+	float: left;
+}
